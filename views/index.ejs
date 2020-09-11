@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  color:white
+}
+p{
+  background: green;
+}
+</style>
+</head>
+<body>
+  <%- include('partials/headfile'); -%>
+
+
+
+<h1>My Website</h1>
+<p>website name: <%= bio.name %></p>
+<p>website url: <%= bio.url %></p>
+<p>website owner name: <%= bio.owner %></p>
+
+</body>
+</html>
